@@ -1,0 +1,27 @@
+
+  .itemlist{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 5px ;
+    border-radius: 10px;
+    
+  }
+
+  .itemlist label{
+    width: 100%;
+    padding-left: 5px;
+    font-size: 17px;
+  }
+
+  .itemlist input{
+    
+    margin-top: 3px;
+  }
+
+  .itemlist:hover{
+    background-color: rgba(0, 162, 255, 0.37);
+  }
+
+ 
